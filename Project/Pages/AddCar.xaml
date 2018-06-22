@@ -1,0 +1,48 @@
+﻿<Page x:Class="Project.Pages.AddCar"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Project.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="AddCar">
+
+    <Grid>
+        <TabControl>
+            <TabItem Header="Детали">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Row="0" Grid.Column="0" Content="Детали" FontSize="28"></Label>
+                    <StackPanel  Grid.Row="1" Grid.Column="0" Margin="20 20 20 5">
+                        <Label>Гаражный номер машины</Label>
+                        <Label>Производитель</Label>
+                        <Label></Label>
+                        <Label></Label>
+                        <Label></Label>
+                        <Label></Label>
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" Grid.Column="1">
+                        <TextBox></TextBox>
+                        <TextBox></TextBox>
+                        <TextBox></TextBox>
+                        <TextBox></TextBox>
+                        <TextBox></TextBox>
+                        <TextBox></TextBox>
+                        <TextBox></TextBox>
+                    </StackPanel>
+                    
+                </Grid>
+            </TabItem>
+            <TabItem Header="Использование"></TabItem>
+            <TabItem></TabItem>
+        </TabControl>
+    </Grid>
+</Page>

@@ -1,0 +1,42 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Project.Stiles">
+    <Style x:Key="StartButtonStyle">
+        <Style.Setters>
+            <Setter Property="Button.FontFamily" Value="Calibri"></Setter>
+            <Setter Property="Button.FontWeight" Value="Normal"></Setter>
+            <Setter Property="Button.Background" Value="Black"></Setter>
+            <Setter Property="Button.Foreground" Value="White"></Setter>
+            <Setter Property="Control.HorizontalAlignment" Value="Right"></Setter>
+            <Setter Property="Button.Width" Value="150"></Setter>
+            <Setter Property="Button.BorderThickness" Value="0"></Setter>
+            <Setter Property="Button.Height" Value="30"></Setter>
+        </Style.Setters>
+    </Style>
+
+    <!--<ControlTemplate x:Key="MyTemplate">
+        <ControlTemplate.Resources>
+            <Style x:Key="MyCTS">
+                <Setter Property="Control.FontFamily" Value="Calibri"></Setter>
+                <Setter Property="Control.FontWeight" Value="Normal"></Setter>
+                <Setter Property="Control.Background" Value="Black"></Setter>
+               
+                <Setter Property="Control.HorizontalAlignment" Value="Right"></Setter>
+                <Setter Property="Control.Width" Value="150"></Setter>
+                <Setter Property="Control.BorderThickness" Value="0"></Setter>
+                <Setter Property="Control.Height" Value="30"></Setter>
+            </Style>
+        </ControlTemplate.Resources>
+
+        <Border>
+            <Label Style="{StaticResource MyCTS}">
+                <ContentPresenter RecognizesAccessKey="True" x:Name="ButtonContentPresenter"></ContentPresenter>
+            </Label>
+        </Border>
+    </ControlTemplate>-->
+    <!--<Style>
+        <Style.Triggers>
+            
+        </Style.Triggers>
+    </Style>-->
+</ResourceDictionary>

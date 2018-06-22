@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project", "Project\Project.csproj", "{CD6D9F46-7F0B-4E63-AC69-9D53250E503E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDB.DAL", "CarDB.DAL\CarDB.DAL.csproj", "{49636985-B40F-4801-A725-B3AEAF67D27C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD6D9F46-7F0B-4E63-AC69-9D53250E503E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD6D9F46-7F0B-4E63-AC69-9D53250E503E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD6D9F46-7F0B-4E63-AC69-9D53250E503E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD6D9F46-7F0B-4E63-AC69-9D53250E503E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49636985-B40F-4801-A725-B3AEAF67D27C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49636985-B40F-4801-A725-B3AEAF67D27C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49636985-B40F-4801-A725-B3AEAF67D27C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49636985-B40F-4801-A725-B3AEAF67D27C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://vassilyevalexey.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Project\\Project.csproj
+		SccProjectName1 = Project
+		SccLocalPath1 = Project
+		SccProjectUniqueName2 = CarDB.DAL\\CarDB.DAL.csproj
+		SccProjectName2 = CarDB.DAL
+		SccLocalPath2 = CarDB.DAL
+	EndGlobalSection
+EndGlobal
